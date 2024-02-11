@@ -119,6 +119,7 @@
             this.Controls.Add(this.pibPersonagem);
             this.DoubleBuffered = true;
             this.Name = "TresForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TresForm";
             ((System.ComponentModel.ISupportInitialize)(this.pibPersonagem)).EndInit();
             this.ResumeLayout(false);

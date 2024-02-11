@@ -118,6 +118,7 @@
             this.Controls.Add(this.btnDir);
             this.Controls.Add(this.btnCima);
             this.Name = "DoisForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DoisForm";
             ((System.ComponentModel.ISupportInitialize)(this.pibPersonagem)).EndInit();
             this.ResumeLayout(false);

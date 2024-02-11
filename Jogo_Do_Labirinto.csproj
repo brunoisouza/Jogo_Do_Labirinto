@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Jogo_Do_Labirinto</RootNamespace>
     <AssemblyName>Jogo_Do_Labirinto</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -113,15 +114,22 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="QuatroForm.resx">
       <DependentUpon>QuatroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeisForm.resx">
+      <DependentUpon>SeisForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TresForm.resx">
       <DependentUpon>TresForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UmForm.resx">
       <DependentUpon>UmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VitoriaForm.resx">
+      <DependentUpon>VitoriaForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

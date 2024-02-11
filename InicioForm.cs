@@ -32,25 +32,25 @@ namespace Jogo_Do_Labirinto
             {
                 CincoForm cincoForm = new CincoForm();
                 cincoForm.Show();
-                cincoForm.Closed += (object s, EventArgs ev) => this.Show();
+                //cincoForm.Closed += (object s, EventArgs ev) => this.Show();
             }
             else if(numeroAleatorio == 1)
             {
                 TresForm tresForm = new TresForm();
                 tresForm.Show();
-                tresForm.Closed += (object s, EventArgs ev) => this.Show();
+                //tresForm.Closed += (object s, EventArgs ev) => this.Show();
             }
             else if( numeroAleatorio == 2)
             {
                 UmForm umForm = new UmForm();
                 umForm.Show();
-                umForm.Closed += (object s, EventArgs ev) => this.Show();
+                //umForm.Closed += (object s, EventArgs ev) => this.Show();
             }
             else
             {
                 SeisForm seisForm = new SeisForm();
                 seisForm.Show();
-                seisForm.Closed += (object s, EventArgs ev) => this.Show();
+                //seisForm.Closed += (object s, EventArgs ev) => this.Show();
             }            
 
         }

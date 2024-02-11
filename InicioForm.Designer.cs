@@ -53,7 +53,7 @@
             // btnInicio
             // 
             this.btnInicio.BackColor = System.Drawing.Color.LawnGreen;
-            this.btnInicio.Font = new System.Drawing.Font("Cooper Black", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Location = new System.Drawing.Point(285, 339);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(231, 98);
@@ -66,11 +66,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LawnGreen;
             this.label1.Location = new System.Drawing.Point(87, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(627, 74);
+            this.label1.Size = new System.Drawing.Size(539, 73);
             this.label1.TabIndex = 2;
             this.label1.Text = "Labirinto Espacial";
             // 
@@ -85,6 +85,7 @@
             this.Controls.Add(this.pibPersonagem);
             this.MaximizeBox = false;
             this.Name = "InicioForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Labirinto Espacial";
             ((System.ComponentModel.ISupportInitialize)(this.pibPersonagem)).EndInit();
             this.ResumeLayout(false);

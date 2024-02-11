@@ -104,6 +104,7 @@
             this.Controls.Add(this.btnCimaSalaUm);
             this.DoubleBuffered = true;
             this.Name = "UmForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UmForm";
             ((System.ComponentModel.ISupportInitialize)(this.pibPersonagem)).EndInit();
             this.ResumeLayout(false);

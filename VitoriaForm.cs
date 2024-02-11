@@ -16,5 +16,13 @@ namespace Jogo_Do_Labirinto
         {
             InitializeComponent();
         }
+
+        private void btnContinuar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            InicioForm inicioForm = new InicioForm();
+            inicioForm.Show();
+        }
     }
 }

@@ -16,5 +16,26 @@ namespace Jogo_Do_Labirinto
         {
             InitializeComponent();
         }
+
+        private void btnCimaSalaUm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            CincoForm cincoForm = new CincoForm();
+            cincoForm.Show();
+        }
+
+        private void btnDirSalaUm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            DoisForm doisForm = new DoisForm();
+            doisForm.Show();
+        }
+
+        private void btnEsqSalaUm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            UmForm umForm = new UmForm();
+            umForm.Show();
+        }
     }
 }
