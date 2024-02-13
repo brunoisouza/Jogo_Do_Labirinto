@@ -24,8 +24,8 @@ namespace Jogo_Do_Labirinto
             Random rdm = new Random();
             numeroAleatorio = rdm.Next(3);
 
-            //Fechar a tela inicio
-            this.Hide();
+            //Oculta a tela inicio
+            //this.Hide();
 
             //Abre a tela aleatória
             if (numeroAleatorio == 0)
@@ -51,7 +51,7 @@ namespace Jogo_Do_Labirinto
                 SeisForm seisForm = new SeisForm();
                 seisForm.Show();
                 //seisForm.Closed += (object s, EventArgs ev) => this.Show();
-            }            
+            }
 
         }
     }
